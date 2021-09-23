@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/AIOXLABS/dialectal-voice/blob/main/logo.jpeg" width="350" alt="logo">
+  <img src="https://github.com/AIOXLABS/DVoice/blob/main/logo.jpeg" width="350" alt="logo">
 </p>
 
 # 1. A propos
