@@ -28,7 +28,7 @@ XLSR-53 détecte les paramètres sur des données non annotées comme il est dé
     <td>Arabe</td>
     <td>Non</td>
     <td>0.7</td>
-    <td>-</td>
+    <td>4h</td>
     <td>30</td>
     <td><a href="https://dvoice.ma/demo"><img style="height:20px;" src="https://dvoice.ma/logos/logo-transparent.png"></a></td>
   </tr>
@@ -52,7 +52,7 @@ XLSR-53 détecte les paramètres sur des données non annotées comme il est dé
     <td>Darija</td>
     <td>Oui</td>
     <td>0.3</td>
-    <td>5h</td>
+    <td>12h</td>
     <td>10</td>
     <td><a href="https://dvoice.ma/demo"><img style="height:20px;" src="https://dvoice.ma/logos/logo-transparent.png"></a></td>
   </tr>
