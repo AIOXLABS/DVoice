@@ -1,5 +1,5 @@
 # 1. Description du modèle
-Nous proposons dans ce projet un fine-tuning du modèle XLSR-wav2vec2.0. XLSR-53, pour "Unsupervised Cross-Lingual Representation Learning For Speech Recognition" est une version multilingue du modèle [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations (Baevski et Al., 2020)](https://arxiv.org/abs/2006.11477). Il a été entraîné sur trois bases de données reparties sur 53 langues pour un total de 56.000 heures d'audios.
+Nous proposons dans ce projet les étapes du fine-tuning du modèle XLSR-wav2vec2.0. XLSR-53, pour "Unsupervised Cross-Lingual Representation Learning For Speech Recognition" est une version multilingue du modèle [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations (Baevski et Al., 2020)](https://arxiv.org/abs/2006.11477). Il a été entraîné sur trois bases de données reparties sur 53 langues pour un total de 56.000 heures d'audios.
 
 Modèle | Architecture | Nombre d'heures | Langues | Datasets | Lien
 |---|---|---|---|---|---
