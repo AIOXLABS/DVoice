@@ -29,7 +29,10 @@ Une autre manière de contribuer à cette initiative, c’est d’évaluer des e
 ## 3.1. Dvoice-v1.0
 La base de données construite est ouverte au publique. Son acquisition se fait sous deux différentes manières:
 - Après souscription sur ce site. On vous l'enverra par suite par mail dans un bref délai.
-- En allant sur le répertoire Zenodo depuis ce lien : [Télécharger ici](https://zenodo.org/record/5482551#.YTdmNnVKhsB).
+- En allant sur le répertoire Zenodo depuis ce lien : [Télécharger ici](https://zenodo.org/record/5482551).
+
+## 3.2. Dvoice-v2.0
+Cette deuxième version de la dataset, disponible [ici](https://zenodo.org/record/6342622), intègre les données augmentées, facilement repérables et une dataset swahilie obtenue par transfer learning depuis la dataset multilingue [VoxLingua107](http://bark.phon.ioc.ee/voxlingua107/).
 
 N.B : Pour être informé lorsqu'une nouvelle mise à jour de la base de données sera disponible, vous pouvez vous souscrire depuis la page Souscription.
 
