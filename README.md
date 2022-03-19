@@ -46,7 +46,9 @@ Une méthode alternative consiste à faire du transfert learning sur des enregis
 - Effectuer un pre-processing sur ces données (réduire les bruits, ajouter du silence si nécessaire,...).
 - Labelliser les audios avec la bibliothèque [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 
-# 4. Perspectives
-Les premières versions des modèles testés ont de très bons scores. Nous encourageons vivement tout le monde à participer à ce programme communautaire en visitant notre site [Dvoice.ma](https://dvoice.ma/) mais aussi le tout nouveau [Dvoice.sn](https://dvoice.sn/) pour proposer ou valider quelques enregistrements. Celà aidera considérablement à la construction d'une grande base de données Darija, cruciale pour améliorer encore plus le score.
+# 4. Notre vision pour DVoice Africa
+La plus grande nouveauté de cette première mise à jour du projet DVoice est certainement l'inclusion d'autres langues africaines, un pas important vers l'objectif ultime de ce projet. Aujourd'hui, le projet comprend, au niveau de la collection de données, le Darija puis, via DVoice Senegal, supporte six langues et dialectes (Wolof, Serere, Diola, Mandingue, Pular, Soninke) parlées au Sénégal et dans plusieurs pays d'Afrique de l'Est. Au niveau modèle, il supporte le Darija et le Swahili.
 
-De notre part on essaie encore d'aller plus loin en accentuant sur des potentiels paramètres/approches à embarquer au moment de l'entraînement et sur la possibilité d'intégrer un modèle de langage qui permettra de mieux affiner les transcriptions.
+Les premières versions des modèles testés ont de très bons scores. Nous encourageons vivement tout le monde à participer à ce programme communautaire en visitant notre site [Dvoice.ma](https://dvoice.ma/) mais aussi le tout nouveau [Dvoice.sn](https://dvoice.sn/) pour proposer ou valider quelques enregistrements. Celà aidera considérablement à la construction d'une grande base de données vocale africaine.
+
+De notre part on essaie encore d'aller plus loin en accentuant sur des potentiels paramètres/approches à embarquer et sur la possibilité d'intégrer un modèle de langage qui permettra de mieux affiner les transcriptions. L'idée ensuite est de mettre au point et de facilitier les technologies vocales pour les langues africaines.
