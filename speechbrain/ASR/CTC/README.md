@@ -1,23 +1,34 @@
 # DVoice ASR with CTC based Seq2Seq models.
-This folder contains scripts necessary to run an ASR experiment with the DVoice dataset: [Link](https://zenodo.org/record/6342622)
+This folder contains scripts necessary to run an ASR experiment with the DVoice datasets : [Link](https://zenodo.org/record/6342622)
 
 # Data preparation
 [DVoice](https://dvoice.ma) attempts to provide automatic voice processing solutions for African languages and dialects. We use preprocessing techniques including voice augmentation to fill the data gap for each language.
 
 # How to run
+- First, get Speechbrain
+
+``` bash
+git clone https://github.com/speechbrain/speechbrain
+```
+- Place the Dvoice/speechbrain folder inside speechbrain/recipes folder
+
+- Go to speechbrain/recipes/DVoice/ASR/CTC the run:
+``` bash
 python train.py hparams/{hparam_file}.py
+```
+
 
 # Languages
-Here is a list of the different languages or dialects that we tested within the DVoice dataset and CTC:
+Here is a list of the different languages and dialects that we tested within the DVoice dataset and CTC:
 - Darija
 - Swahili (upcoming soon)
 
 # Results
 
-| Language | DVoice Release | hyperparams file | LM | Val. CER | Val. WER | Test CER | Test WER | HuggingFace link | Model link | GPUs |
-| ------------- |:-------------:|:---------------------------:| -----:| -----:| -----:| -----:| -----:| :-----------:| :-----------:| :-----------:|
-| Darija (Moroccan Arabic) | - | train_dar_with_wav2vec.yaml | No | 5.51 | 18.46 | 5.85 | 18.28 | [Link](https://huggingface.co/nairaxo/dvoice-darija) | - | - |
-| Swahili | - | train_sw_with_wav2vec.yaml | No | 8.83 | 22.78 | 9.46 | 23.16 | [Link](https://huggingface.co/nairaxo/dvoice-swahili) | - | - |
+| Language | DVoice Release | hyperparams file | LM | Val. CER | Val. WER | Test CER | Test WER | HuggingFace link |
+| ------------- |:-------------:|:---------------------------:| -----:| -----:| -----:| -----:| -----:| :-----------:|
+| Darija (Moroccan Arabic) | v2.0 | train_dar_with_wav2vec.yaml | No | 5.51 | 18.46 | 5.85 | 18.28 | [Link](https://huggingface.co/nairaxo/dvoice-darija) |
+| Swahili | v2.0 | train_sw_with_wav2vec.yaml | No | 8.83 | 22.78 | 9.46 | 23.16 | [Link](https://huggingface.co/nairaxo/dvoice-swahili) |
 
 
 
