@@ -13,7 +13,7 @@ Site web : https://www.aiox-labs.com/
 
 Dialectal Voice est un projet communautaire initié par AIOX-Labs pour faciliter la reconnaissance de la voix par les Systèmes Intelligents. Aujourd'hui, le besoin en Systèmes IA capable de reconnaître la voix humaine s'exprime de plus en plus au sein des communautés. On remarque cependant que pour certaines langues comme le Darija, il n'existe pas assez de solutions de technologie vocale. Pour répondre à ce besoin, on s'est proposé alors d'établir ce programme de construction itérative et intéractive d'une base de données dialectale et ouverte à tous afin d'aider à améliorer les modèles de reconnaissance et de génération de la voix.
 
-Site web : https://dvoice.ma/
+Sites web : https://dvoice.ma/, https://dvoice.sn/
 
 # 2. Contribuer au projet Dvoice
 Il existe deux manières de contribuer au projet:
@@ -47,6 +47,6 @@ Une méthode alternative consiste à faire du transfert learning sur des enregis
 - Labelliser les audios avec la bibliothèque [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 
 # 4. Perspectives
-Les premières versions des modèles testés ont de très bons scores. Nous encourageons vivement tout le monde à participer à ce programme communautaire en visitant notre site [Dvoice.ma](https://dvoice.ma/) pour proposer ou valider quelques enregistrements. Celà aidera considérablement à la construction d'une grande base de données Darija, cruciale pour améliorer encore plus le score.
+Les premières versions des modèles testés ont de très bons scores. Nous encourageons vivement tout le monde à participer à ce programme communautaire en visitant notre site [Dvoice.ma](https://dvoice.ma/) mais aussi le tout nouveau [Dvoice.sn](https://dvoice.sn/) pour proposer ou valider quelques enregistrements. Celà aidera considérablement à la construction d'une grande base de données Darija, cruciale pour améliorer encore plus le score.
 
 De notre part on essaie encore d'aller plus loin en accentuant sur des potentiels paramètres/approches à embarquer au moment de l'entraînement et sur la possibilité d'intégrer un modèle de langage qui permettra de mieux affiner les transcriptions.
